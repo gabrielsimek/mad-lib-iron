@@ -29,9 +29,10 @@ submitButton.addEventListener('click', () => {
     output4.textContent = input4.value;
     output5.textContent = input5.value;
     output6.textContent = input6.value;
-    hidden.classList.remove('hidden');
+    const showStory = document.getElementById('show-story');
+    showStory.classList.toggle('hidden');
 
-    const hidden = document.getElementById('hiddenjs');
+    
 
 
 });
