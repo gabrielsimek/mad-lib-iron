@@ -30,7 +30,7 @@ submitButton.addEventListener('click', () => {
     output5.textContent = input5.value;
     output6.textContent = input6.value;
     const showStory = document.getElementById('show-story');
-    showStory.classList.toggle('hidden');
+    showStory.classList.remove('hidden');
 
     
 
