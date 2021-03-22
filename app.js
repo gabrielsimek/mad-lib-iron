@@ -19,6 +19,7 @@ const output3 = document.getElementById('output3');
 const output4 = document.getElementById('output4');
 const output5 = document.getElementById('output5');
 const output6 = document.getElementById('output6');
+const gagaImage = document.getElementById('image');
 
 const submitButton = document.getElementById('submit-button');
 
@@ -31,9 +32,10 @@ submitButton.addEventListener('click', () => {
     output6.textContent = input6.value;
     const showStory = document.getElementById('show-story');
     showStory.classList.remove('hidden');
+    gagaImage.classList.remove('hidden');
 
     
 
 
 });
-
+// 
