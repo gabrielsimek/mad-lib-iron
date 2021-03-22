@@ -22,3 +22,17 @@ const output6 = document.getElementById('output6');
 
 const submitButton = document.getElementById('submit-button');
 
+submitButton.addEventListener('click', () => {
+    output1.textContent = input1.value;
+    output2.textContent = input2.value;
+    output3.textContent = input3.value;
+    output4.textContent = input4.value;
+    output5.textContent = input5.value;
+    output6.textContent = input6.value;
+    hidden.classList.remove('hidden');
+
+    const hidden = document.getElementById('hiddenjs');
+
+
+});
+
